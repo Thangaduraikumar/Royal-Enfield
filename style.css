@@ -1,0 +1,601 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Header */
+.logo{
+    width: 200px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:15px 10px;
+}
+.dropdown{
+    border: none;
+    font-family:"Outfit", sans-serif;
+    font-size: 13px;
+    color: white;
+    padding-left: 25px;
+    background-color: black;
+}
+.dropdown:hover{
+    color: #da291c;
+    cursor: pointer;
+}
+.dropdown-end{
+    border: none;
+    font-family:"Outfit", sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+}
+.dropdown-end:hover{
+    color: #da291c;
+    cursor: pointer;
+}
+
+/* Gallery-1 */
+.Gallery-1{
+    background-color: #212121;  
+    padding: 10px 20px 10px 10px;
+}
+
+.Gallery-body{
+    display: flex;
+}
+
+.h2{
+    font-family:"Outfit", sans-serif;
+    color: white;
+    padding: 0px 20px;
+}
+.Gallery-p{
+    font-family:"Outfit", sans-serif;
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.Gallery-g{
+    font-family:"Outfit", sans-serif;
+    color: #da291c;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.Gallery-p:hover{
+    color: #da291c;
+    cursor: pointer;
+}
+.Gallery-g:hover{
+    cursor: pointer;
+}
+.btn-1{
+    padding: 7px 30px;
+    font-family:"Outfit", sans-serif;
+    font-size: 16px;
+    margin-right:10px;
+    border: 0px solid;
+}
+.btn-2{
+    padding: 7px 30px;
+    font-family:"Outfit", sans-serif;
+    font-size: 16px;
+    background-color: #da291c;
+    border: 0px solid;
+}
+
+/* Gallery-2 */
+
+.Gallery-2{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.greater-than-symbol{
+    width: 25px;
+}
+.Gallery-2-txt{
+    font-family:"Outfit", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* <!-- Stay true -Stay classic Image --> */
+
+.bg-img-1{
+    width: 100%;
+}
+
+/* Video And Thumbnail-Image */
+
+.Vid-thumb{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* Trending Since 1950-img */
+
+.trending-img{
+   position: relative;
+  }
+.trending-img-txt-1{
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    color: white;
+    font-family:"Outfit", sans-serif;
+}
+
+.trending-img-txt-2{
+    width: 28%;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: white;
+    font-family:"Outfit", sans-serif;
+}
+
+/* Rg-Improve-icon */
+
+.bike-improve{
+    position: relative;
+}
+
+.improve-txt-1{
+    width: 30%;
+    position: absolute;
+    top: 110px;
+    right: 45px;
+    color: white;
+    font-family:"Outfit", sans-serif;
+}
+
+.improve-txt-2{
+    width: 28%;
+    position: absolute;
+    top: 180px;
+    right: 70px;
+    color: white;
+    font-family:"Outfit", sans-serif;
+}
+
+/*  Rg-red-bike */
+.rg-red-img{
+    position: relative;
+    margin-top: -10px;
+   }
+ .rg-red-img-txt-1{
+     position: absolute;
+     top: 120px;
+     left: 70px;
+     color: white;
+     font-family:"Outfit", sans-serif;
+ }
+ 
+ .rg-red-img-txt-2{
+     width: 26%;
+     position: absolute;
+     top: 170px;
+     left: 70px;
+     color: white;
+     font-family:"Outfit", sans-serif;
+ }
+
+ /* NEW COLOURS. TRUE COLOURS */
+
+ .rg-green-img{
+    margin-top: 20px;
+ }
+
+ .rg-green-img-h1{
+    text-align: center;
+    font-family:"Outfit", sans-serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+ }
+ .rg-green-img-abs{
+   display: grid;
+   grid-template-columns: 200px 250px 1fr;  
+ }
+ .rg-green-img-txt-1{
+    font-family:"Outfit", sans-serif;
+    font-weight: bold;
+    color: #444444;
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: #da291c;
+ }
+
+ .rg-green-img-txt-2{
+    font-family:"Outfit", sans-serif;
+    font-weight: bold;
+    color: #888;
+    font-size: 15px;
+ }
+
+.rg-green-img-h2{
+    font-family:"Outfit", sans-serif;
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 22px;   
+}
+.halycon-bike-img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blue-bg-img{
+    display: grid;
+    grid-template-columns: 250px 1fr 200px;
+    margin-top: 10px;
+}
+.blue-bg-txt-1{
+    margin-left: 50px;
+    font-family:"Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.bike-tank{
+    width: 80%;
+    margin-left: 10px;
+   
+}
+.bike-tank-txt{
+    font-family:"Outfit", sans-serif;
+    font-weight: bold;
+}
+.btn-spec{
+    border: none;
+    padding: 7px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212121;
+    font-family:"Outfit", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.btn-spec:hover{
+    cursor: pointer;
+}
+
+/* Tripper Royal Enfield */
+
+.tripper{
+    position: relative;
+}
+
+.tripper-txt{
+    position: absolute;
+    width: 28%;
+    top: 240px;
+    right: 70px;
+    color: white;
+    font-family:"Outfit", sans-serif;
+}
+.tripper-btn{
+    border: none;
+    padding: 7px 30px;
+    position: absolute;
+    top: 325px;
+    right: 285px;
+    font-family:"Outfit", sans-serif;
+}
+
+/* Book A test Ride  */
+
+.test-ride{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f1f1f1;
+    width: 90%;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.test-ride-txt-1{
+    font-family:"Outfit", sans-serif;
+    color: #313131;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.test-ride-txt-2{
+    font-family:"Outfit", sans-serif;
+    color: #313131;
+    margin-left: 50px;  
+    margin-top: 5px;
+    color: #666666;
+}
+
+/*Contact- Form  */
+.label-txt{
+    font-family:"Outfit", sans-serif;
+    margin-left: 50px;
+    padding-top: 30px;
+    color: #666666;
+}
+.check-box{
+    font-family:"Outfit", sans-serif;
+    color: #666666;
+}
+.input-txt{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black; 
+    padding-top: 30px;
+    background-color: #f1f1f1;
+}
+.sub-btn{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px 35px ;
+    background-color: black;
+    font-family:"Outfit", sans-serif;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-bottom: 60px;
+}
+/*  Gallery txt */
+
+.G-txt{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Gallery-txt{
+    font-size: 90px;
+    font-family: "Londrina Shadow", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*  Shop Acc And Register */
+
+.shop-and-reg{
+    background-color: black; 
+    display: flex;
+}
+
+.shop-and-reg-img{
+    position: relative;
+}
+.shop-and-reg-img-1{
+    width: 80%; 
+    height: 320px;
+    margin: 70px 0px 70px 70px;
+}
+.shop-and-reg-img-2{
+    width: 80%; 
+    height: 320px;
+    margin: 70px 70px 70px 40px;
+}
+
+.shop-and-reg-btn-1{
+    position: absolute;
+    top: 325px;
+    right: 200px;
+    border: none;
+    background-color: white;
+    font-family:"Outfit", sans-serif;
+    font-size: 16px;
+    padding: 7px 30px;
+}
+
+.shop-and-reg-btn-2{
+    position: absolute;
+    top: 325px;
+    right: -380px;
+    border: none;
+    background-color: white;
+    font-family:"Outfit", sans-serif;
+    font-size: 16px;
+    padding: 7px 20px;
+}
+
+/* News Letter - ViewMore */
+
+.nl-vm-bg{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nl-vm-txt-1{
+    color: white;
+    font-size: 35px;
+    font-family:"Outfit", sans-serif;
+    margin-left: 30px;
+}
+.nl-vm-txt-2{
+    color: #da291c;
+    font-family:"Outfit", sans-serif;
+    margin-right: 50px;
+}
+
+/* Cards */
+
+.card-container{
+   display:flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+   background-color: black;
+}
+
+.card{
+    width: 350px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content h2{
+    font-family:"Outfit", sans-serif;
+    margin: 10px 0px 10px 0px;
+    color: white;
+}
+.card-content p{
+    font-family:"Outfit", sans-serif;
+    text-align:justify;
+    color: white;
+}
+.card-content button{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family:"Outfit", sans-serif;
+    padding: 7px 20px;
+    margin-top: 10px;
+}
+
+/* video */
+
+.video-link{
+    position: relative;
+}
+
+.video-txt{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    width: 45%;
+}
+
+.video-txt h2 {
+    color: white;
+    font-family:"Outfit", sans-serif;
+    text-align: center;
+    padding-top: 3px;
+}
+.video-txt p {
+    color: white;
+    font-family:"Outfit", sans-serif;
+    text-align: center;
+    padding-top: 3px;
+}
+.video-txt button{
+    border: none;
+    padding: 7px 30px;
+    font-family:"Outfit", sans-serif;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+/* icons */
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    margin-top: -5px;
+}
+
+.icon-container img{
+    padding-top: 30px;
+    width: 70px;
+}
+
+/* Icon-Text */
+
+.icon-txt-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+}
+
+.icon-txt-container p{
+    color:#666666;
+    font-family:"Outfit", sans-serif;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.icon-txt-container p:hover{
+    color: #da291c;
+    cursor: pointer;
+}
+
+/* Social-Icon */
+.social-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: #e5e3e3;
+}
+.social-icon p{
+    font-family:"Outfit", sans-serif;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+.social-icon img{
+    width: 30px;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+/* Footer */
+
+.footer-container{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    gap: 10px;
+    padding: 30px 40px 0px 40px;
+    background-color: #e5e3e3;
+}
+
+.footer-container h3{
+    font-family:"Outfit", sans-serif;   
+    margin-bottom: 5px;
+}
+.footer-container p{
+    font-family:"Outfit", sans-serif;
+    padding-top: 10px;
+    font-size: 14px;     
+}
+.footer-container p:hover{
+    color: #da291c;
+    cursor: pointer;
+}
+
+/* copyright and terms and conditions*/
+
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    display: flex;  
+}
+.copyright-container span{
+    font-family:"Outfit", sans-serif;
+    font-size: 11px;
+    font-weight: none;
+}
+.copyright p{
+    padding-left: 10px;
+    font-size: 11px;
+    font-family:"Outfit", sans-serif;
+    padding-bottom: 20px;
+}
+.copyright p:hover{
+    color: #da291c;
+    cursor: pointer;
+}
